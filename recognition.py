@@ -118,9 +118,9 @@ class ExampleApp(QtWidgets.QMainWindow, window.Ui_SpeechRecognition):
 
 
 def main():
-    APP_ID = '25426975'
-    API_KEY = 'besIFO02GHosUHIUdeeYAOLL'
-    SECRET_KEY = '4WL6EbLp821uC1oUNKQZLKWWOMot2zGt '
+    APP_ID = 'your id'
+    API_KEY = 'your key'
+    SECRET_KEY = 'your secret keys'
 
     client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
     outfile = "./audio/16k.wav"
